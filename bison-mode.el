@@ -244,9 +244,6 @@ and \(point\)"
 (define-derived-mode bison-mode c-mode "Bison"
   "Major mode for editing bison/yacc files."
 
-  ;; try to set the indentation correctly
-  (setq c-basic-offset 4)
-
   (c-set-offset 'knr-argdecl-intro 0)
 
   ;; remove auto and hungry anything
